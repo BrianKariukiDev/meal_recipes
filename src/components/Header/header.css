@@ -1,0 +1,32 @@
+.top{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(0, 191, 255);
+    border-radius: 20px;
+}
+
+.top ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(19, 98, 209);
+    width: 50%;
+}
+.top ul li{
+    background-color: aqua;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo{
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: large;
+    font-style: italic;
+    color: rgb(0, 0, 255);
+    border-radius: 50%;
+    border: 5px solid blue;
+}
